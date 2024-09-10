@@ -21,3 +21,11 @@ Route::get('/register', function () {
 Route::get('/home', function () {
     return view('grocery.homepage');
 });
+
+Route::get('/fruits', function () {
+    return view('grocery.fruit');
+});
+
+Route::get('/snacks', function () {
+    return view('grocery.snack');
+});
